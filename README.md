@@ -8,7 +8,7 @@ This repo is a quick example for indexing Spaces on Bitcoin using `spaced` and `
 Make sure to run `spaced` with block indexing enabled:
 
 ```bash
-spaced --chain test --bitcoin-rpc-user test --bitcoin-rpc-password test --index-blocks
+spaced --chain test --block-index --bitcoin-rpc-user test --bitcoin-rpc-password test
 ```
 
 Update the rpc configuration in index.js if needed
